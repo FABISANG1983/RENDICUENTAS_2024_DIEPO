@@ -12,7 +12,20 @@
     html, body { height: 100%; padding: 0; margin: 0 }
     #app { height: 100%; width: 100%; }
   </style>
-
+  <script type="text/javascript">
+  window.tiledeskSettings = {
+        projectid: "673c9a59ae06a5001382df08"
+  };
+  (function(d, s, id) {
+       var w=window; var d=document; var i=function(){i.c(arguments);};
+       i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;
+       var js, fjs=d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) return;
+       js=d.createElement(s);
+       js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v6/launch.js";
+       fjs.parentNode.insertBefore(js, fjs);
+  }(document,'script','tiledesk-jssdk'));
+</script>
   <script>
     window.DS = {};
     window.globals = {
@@ -37,7 +50,7 @@
       aid: 'aid|2148e304-8856-43fa-9667-12c7fbdd4668',
       cid: 'af6bf8b8-ef17-4cbd-b7f0-003e20ec6b88',
       playerVersion: '3.88.32574.0',
-      publishTimestamp: '2024-11-22T21:18:46.9952160Z',
+      publishTimestamp: '2024-11-22T22:38:37.3321890Z',
       maxIosVideoElements: 10,
       connectionSettings: { mode: 'disabled' },
       hasFeature: function(feature) {
