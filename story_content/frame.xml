@@ -13,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="APP_DIEPO _version_1.0.8" />
+              <option name="title_text" value="APP_DIEPO _version_1.0.9" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -1308,9 +1308,9 @@
         <slidelink slideid="_player.66BFO6gDjPg" displaytext="Escena sin título" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.66BFO6gDjPg.5dHADud9MAD" displaytext="BASE" expand="false" type="slide" />
-            <slidelink slideid="_player.66BFO6gDjPg.6F7sBaQTPxR" displaytext="ESCUELAS" expand="false" type="slide" />
-            <slidelink slideid="_player.66BFO6gDjPg.6ZAC7RdpPEP" displaytext="PROGRAMAS DE FORMACIÓN" expand="false" type="slide" />
+            <slidelink slideid="_player.66BFO6gDjPg.6ZAC7RdpPEP" displaytext="OFERTA NACIONAL" expand="false" type="slide" />
             <slidelink slideid="_player.66BFO6gDjPg.6UjqmrtfShW" displaytext="SECCION 1_HTML5" expand="false" type="slide" />
+            <slidelink slideid="_player.66BFO6gDjPg.68OJmJ0xdW0" displaytext="OFERTA INTERNACIONAL" expand="false" type="slide" />
             <slidelink slideid="_player.66BFO6gDjPg.5iiaKp6b12I" displaytext="ESCUELAS" expand="false" type="slide" />
           </links>
         </slidelink>
