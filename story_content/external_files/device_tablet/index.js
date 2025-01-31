@@ -1,0 +1,32 @@
+TabletResponsive={"1009":{
+"pageLayer":{"w":1009,"h":662,"bgColor":"#ffffff","bgImage":"images/cartographerlight.png","bgSize":"128px 128px","bgRepeat":"repeat"}
+,
+"text97":{"x":195,"y":190,"w":582,"h":64,"txtscale":100,"bOffBottom":0}
+,
+"extensióndehtml":{"x":353,"y":426,"w":300,"h":200,"bOffBottom":0}
+,
+"text172":{"x":146,"y":271,"w":682,"h":112,"txtscale":100,"bOffBottom":0}
+,
+"RCDResetQuestion":function(){
+try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
+}
+,
+"RCDResultResize":function(){}
+,"preload":[]
+},
+"785":{
+"pageLayer":{"w":785,"h":1000,"bgColor":"#ffffff","bgImage":"images/cartographerlight.png","bgSize":"100px 100px","bgRepeat":"repeat"}
+,
+"text97":{"x":69,"y":215,"w":635,"h":150,"txtscale":100,"bOffBottom":0}
+,
+"extensióndehtml":{"x":272,"y":494,"w":233,"h":156,"bOffBottom":0}
+,
+"text172":{"x":167,"y":297,"w":452,"h":155,"txtscale":100,"bOffBottom":0}
+,
+"RCDResetQuestion":function(){
+try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
+}
+,
+"RCDResultResize":function(){}
+,"preload":[]
+}}

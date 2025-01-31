@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <!-- Creado con Storyline 360 x64 - http://www.articulate.com  -->
-  <!-- version: 3.88.32574.0 -->
-  <title>APP_DIEPO _version_1.0.9</title>
+  <!-- version: 3.95.33670.0 -->
+  <title>DIEPO_APP</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
   <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -12,20 +12,7 @@
     html, body { height: 100%; padding: 0; margin: 0 }
     #app { height: 100%; width: 100%; }
   </style>
-  <script type="text/javascript">
-  window.tiledeskSettings = {
-        projectid: "673c9a59ae06a5001382df08"
-  };
-  (function(d, s, id) {
-       var w=window; var d=document; var i=function(){i.c(arguments);};
-       i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;
-       var js, fjs=d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) return;
-       js=d.createElement(s);
-       js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v6/launch.js";
-       fjs.parentNode.insertBefore(js, fjs);
-  }(document,'script','tiledesk-jssdk'));
-</script>
+
   <script>
     window.DS = {};
     window.globals = {
@@ -37,22 +24,22 @@
       tinCanPresent: false,
       cmi5Present: false,
       aoSupport: false,
-      scale: 'show all',
+      scale: 'noscale',
       captureRc: false,
       browserSize: 'fullscreen',
-      bgColor: '#FFFFFF',
-      features: 'DropInBase,DropInCore,DropInInteractions,DropInMisc,DropInVectors,DropInVideo,LayerPresentAsDialog,MultipleQuizTracking,UpdatedThemeEditor',
-      themeName: 'classic',
+      bgColor: '#282828',
+      features: 'DropInAcc,DropInBase,DropInCore,DropInInteractions,DropInMisc,DropInVectors,DropInVideo,LayerPresentAsDialog,MultipleQuizTracking,UpdatedThemeEditor',
+      themeName: 'unified',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
       productChannel: 'stable',
       publishSource: 'storyline',
-      aid: 'aid|2148e304-8856-43fa-9667-12c7fbdd4668',
-      cid: 'af6bf8b8-ef17-4cbd-b7f0-003e20ec6b88',
-      playerVersion: '3.88.32574.0',
-      publishTimestamp: '2024-11-22T22:38:37.3321890Z',
+      aid: 'aid|de5515e7-7bf1-4e43-9d3c-0159d87fd708',
+      cid: '004f3497-3275-4cb8-b192-0be69316bbe4',
+      playerVersion: '3.95.33670.0',
+      publishTimestamp: '2025-01-31T16:00:30.1325798Z',
       maxIosVideoElements: 10,
-      connectionSettings: { mode: 'disabled' },
+      connectionSettings: { message: 'You%20are%20offline.%20Trying%20to%20reconnect...', useDarkTheme: false, mode: 'disabled' },
       hasFeature: function(feature) {
         return this.features.split(',').includes(feature);
       },
@@ -86,7 +73,7 @@
   </script>
 
   <script>
-    if (window.globals.hasFeature('MultiLanguageSupport')) {
+    if (window.globals.hasFeature('MultiLanguageSinglePackageSupport')) {
       
       
     }
@@ -96,7 +83,7 @@
   <script>window.THREE = { };</script>
   
 </head>
-<body style="background: #FFFFFF" class="cs-HTML theme-classic">
+<body style="background: #282828" class="cs-HTML theme-unified">
   <!-- 360 -->
   <script>!function(){var e,i=/iPhone/i,o=/iPod/i,n=/iPad/i,t=/\biOS-universal(?:.+)Mac\b/i,r=/\bAndroid(?:.+)Mobile\b/i,a=/Android/i,d=/(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i,p=/Silk/i,l=/Windows Phone/i,u=/\bWindows(?:.+)ARM\b/i,b=/BlackBerry/i,s=/BB10/i,c=/Opera Mini/i,f=/\b(CriOS|Chrome)(?:.+)Mobile/i,h=/Mobile(?:.+)Firefox\b/i,v=function(e){return void 0!==e&&"MacIntel"===e.platform&&"number"==typeof e.maxTouchPoints&&e.maxTouchPoints>1&&"undefined"==typeof MSStream};e=function(e){var m={userAgent:"",platform:"",maxTouchPoints:0};e||"undefined"==typeof navigator?"string"==typeof e?m.userAgent=e:e&&e.userAgent&&(m={userAgent:e.userAgent,platform:e.platform,maxTouchPoints:e.maxTouchPoints||0}):m={userAgent:navigator.userAgent,platform:navigator.platform,maxTouchPoints:navigator.maxTouchPoints||0};var g=m.userAgent,y=g.split("[FBAN");void 0!==y[1]&&(g=y[0]),void 0!==(y=g.split("Twitter"))[1]&&(g=y[0]);var A=function(e){return function(i){return i.test(e)}}(g),w={apple:{phone:A(i)&&!A(l),ipod:A(o),tablet:!A(i)&&(A(n)||v(m))&&!A(l),universal:A(t),device:(A(i)||A(o)||A(n)||A(t)||v(m))&&!A(l)},amazon:{phone:A(d),tablet:!A(d)&&A(p),device:A(d)||A(p)},android:{phone:!A(l)&&A(d)||!A(l)&&A(r),tablet:!A(l)&&!A(d)&&!A(r)&&(A(p)||A(a)),device:!A(l)&&(A(d)||A(p)||A(r)||A(a))||A(/\bokhttp\b/i)},windows:{phone:A(l),tablet:A(u),device:A(l)||A(u)},other:{blackberry:A(b),blackberry10:A(s),opera:A(c),firefox:A(h),chrome:A(f),device:A(b)||A(s)||A(c)||A(h)||A(f)},any:!1,phone:!1,tablet:!1};return w.any=w.apple.device||w.android.device||w.windows.device||w.other.device,w.phone=w.apple.phone||w.android.phone||w.windows.phone,w.tablet=w.apple.tablet||w.android.tablet||w.windows.tablet,w}(),"object"==typeof exports&&"undefined"!=typeof module?module.exports=e:"function"==typeof define&&define.amd?define((function(){return e})):this.isMobile=e}();
     window.isMobile.apple.tablet = window.isMobile.apple.tablet ||
@@ -151,11 +138,11 @@
   <div class="slide-loader"></div>
 
   <script>
-    if (window.globals.deviceView.isMobile) { var doc = document, loader = doc.body.querySelector('.slide-loader'); [ 1, 2, 3 ].forEach(function(n) { var d = doc.createElement('div'); d.style.backgroundColor = window.globals.preloaderColor; d.classList.add('mobile-loader-dot'); d.classList.add('dot' + n); loader.appendChild(d); }); }
+    var doc = document, loader = doc.body.querySelector('.slide-loader'); [ 1, 2, 3 ].forEach(function(n) { var d = doc.createElement('div'); d.style.backgroundColor = window.globals.preloaderColor; d.classList.add('mobile-loader-dot'); d.classList.add('dot' + n); loader.appendChild(d); });
   </script>
 
   <div class="mobile-load-title-overlay" style="display: none">
-    <div class="mobile-load-title">APP_DIEPO _version_1.0.9</div>
+    <div class="mobile-load-title">DIEPO_APP</div>
   </div>
 
   <div class="mobile-chrome-warning"></div>

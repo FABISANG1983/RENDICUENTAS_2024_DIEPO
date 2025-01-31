@@ -1,0 +1,32 @@
+PhoneResponsive={"785":{
+"pageLayer":{"w":785,"h":487,"bgColor":"#ffffff","bgImage":"images/cartographerlight.png","bgSize":"100px 100px","bgRepeat":"repeat"}
+,
+"text97":{"x":152,"y":148,"w":453,"h":55,"txtscale":100,"bOffBottom":0}
+,
+"extensióndehtml":{"x":275,"y":331,"w":233,"h":156,"bOffBottom":0}
+,
+"text172":{"x":114,"y":211,"w":531,"h":111,"txtscale":100,"bOffBottom":0}
+,
+"RCDResetQuestion":function(){
+try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
+}
+,
+"RCDResultResize":function(){}
+,"preload":[]
+},
+"480":{
+"pageLayer":{"w":480,"h":763,"bgColor":"#ffffff","bgImage":"images/cartographerlight.png","bgSize":"61px 61px","bgRepeat":"repeat"}
+,
+"text97":{"x":17,"y":245,"w":449,"h":222,"txtscale":100,"bOffBottom":0}
+,
+"extensióndehtml":{"x":175,"y":443,"w":143,"h":95,"bOffBottom":0}
+,
+"text172":{"x":33,"y":305,"w":424,"h":222,"txtscale":100,"bOffBottom":0}
+,
+"RCDResetQuestion":function(){
+try{if(window.dragMgr)window.dragMgr.clearDropZones();}catch(e){if(e&&e.message)console.log(e.message);}
+}
+,
+"RCDResultResize":function(){}
+,"preload":[]
+}}
