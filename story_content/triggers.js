@@ -2,55 +2,55 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6hLEMNLUqDG":
+      case "6QKG9SZ1wa0":
         Script1();
         break;
-      case "6OcXv8NKfAD":
+      case "6PxQ569b2md":
         Script2();
         break;
-      case "5rr4NHDmaNR":
+      case "5k2BjQmBnt2":
         Script3();
         break;
-      case "5t2JoqHdlL0":
+      case "60ChY0cmi8K":
         Script4();
         break;
-      case "62Os3UUywWm":
+      case "5dLqsy6i3MA":
         Script5();
         break;
-      case "6RfEa7Wiuxk":
+      case "6ITUUD1jijY":
         Script6();
         break;
-      case "6Vx0bRt3Z0a":
+      case "5VWOxVruOUD":
         Script7();
         break;
-      case "6fOOQnaZ0Vm":
+      case "6rKYgdFSJPz":
         Script8();
         break;
-      case "5roJNDdThwF":
+      case "69stcwdjYna":
         Script9();
         break;
-      case "62sLUA9cWoC":
+      case "6HOeoC1ihf2":
         Script10();
         break;
-      case "6AcXzoHrwVV":
+      case "6j7K2TTS6tJ":
         Script11();
         break;
-      case "5itM7rzlKVl":
+      case "6ogsYRIPUsO":
         Script12();
         break;
-      case "5uK5ZtkuWym":
+      case "6WfTOLL1TUL":
         Script13();
         break;
-      case "6RALifXDtAy":
+      case "5sUAihhMpXC":
         Script14();
         break;
-      case "66FFZlPkgmH":
+      case "6I2VtXwRBTv":
         Script15();
         break;
-      case "6DEd3aFu1pO":
+      case "5awq2HcoZGL":
         Script16();
         break;
-      case "6ZJwhOFxOXd":
+      case "5jDuoY5HYWu":
         Script17();
         break;
   }
@@ -179,10 +179,10 @@ target.animate([
 
 window.Script7 = function()
 {
-  const target = object('6njBwxw8vgM');
+  const target = object('5ar7zMsOQFk');
 const duration = 750;
 const easing = 'ease-out';
-const id = '5nMQTlbUHkq';
+const id = '5oveHXtw1NE';
 const pulseAmount = 0.07;
 player.addForTriggers(
 id,
