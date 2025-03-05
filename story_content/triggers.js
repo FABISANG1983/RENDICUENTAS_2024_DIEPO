@@ -2,56 +2,86 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6QwIrxGie7O":
+      case "6nQEFGfldys":
         Script1();
         break;
-      case "5ZxEsZlfy3Y":
+      case "69QUeH0nLnQ":
         Script2();
         break;
-      case "6PuUniYVsqQ":
+      case "6G9tArEmDek":
         Script3();
         break;
-      case "6StPx6szv2S":
+      case "6TpOL5i3VrD":
         Script4();
         break;
-      case "6ErKULzMNSF":
+      case "6iNZvKohigO":
         Script5();
         break;
-      case "6KDjwOZpw8O":
+      case "6kn0YXFpd4B":
         Script6();
         break;
-      case "6XRTyHxD5pl":
+      case "5lZqcHc8Goq":
         Script7();
         break;
-      case "6dt5BksGk6d":
+      case "6gbHMx5bnGL":
         Script8();
         break;
-      case "5xf0HD8o6u6":
+      case "67jQ69ycyLi":
         Script9();
         break;
-      case "6PDBv8wRYMV":
+      case "6NCJwfbrCwa":
         Script10();
         break;
-      case "6o8enzReFdh":
+      case "6D5lQHMdMDF":
         Script11();
         break;
-      case "6iJP9M6ijCt":
+      case "5vxygGcWnjj":
         Script12();
         break;
-      case "6TLbDAUuurU":
+      case "66lHgfWNmF0":
         Script13();
         break;
-      case "6SG0lWvqmbu":
+      case "6lR2wzccAl3":
         Script14();
         break;
-      case "5zzPHnq99Qi":
+      case "6RSdMz9Jk82":
         Script15();
         break;
-      case "6JAkT2LAHzT":
+      case "6cbj1n9kt0p":
         Script16();
         break;
-      case "5xYqrzXeJj5":
+      case "6V7r57ci02g":
         Script17();
+        break;
+      case "6EBydW8g9UU":
+        Script18();
+        break;
+      case "6f5xxZzwin7":
+        Script19();
+        break;
+      case "6lS1PtO3OTZ":
+        Script20();
+        break;
+      case "5cuxd7aGjiX":
+        Script21();
+        break;
+      case "6W6Mfast6Zr":
+        Script22();
+        break;
+      case "6PIvqlygjjJ":
+        Script23();
+        break;
+      case "5aVvjOKCyTc":
+        Script24();
+        break;
+      case "6WX8Kc0HXfx":
+        Script25();
+        break;
+      case "6aI70NtUhhN":
+        Script26();
+        break;
+      case "6XuyGGbgt8m":
+        Script27();
         break;
   }
 }
@@ -60,6 +90,7 @@ window.InitExecuteScripts = function()
 {
 var player = GetPlayer();
 var object = player.object;
+var once = player.once;
 var addToTimeline = player.addToTimeline;
 var setVar = player.SetVar;
 var getVar = player.GetVar;
